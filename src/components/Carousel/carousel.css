@@ -1,0 +1,25 @@
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.d-block {
+    width: 100%;
+    height: 100svh;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .d-block w-100 {
+    width: 100%;
+    height: 100svh;
+    object-fit: cover;
+    object-position: center;
+    background-image: url("../../../masque/noun-baule-mask-3825805.png");
+    background-repeat: no-repeat;
+    background-position: center;
+} */

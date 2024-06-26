@@ -1,0 +1,166 @@
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+
+.roboto-condensed-<uniquifier> {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.views{
+    background-color: #202020;
+    position: relative;
+    height: 280svh;
+}
+.views-body{
+    background-color: #202020;
+    position: relative;
+    height: 50svh;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #f6f6f6;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    /* box-shadow: #000000 10px 10px 10px 1px; */
+    
+}
+/* .views-text{
+    position: relative;
+    text-align: center;
+    top: 35%;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+    transform: translate3d(-50%, -50%, 10%);
+    color: #f6f6f6;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+    /* margin-bottom: 100px; */
+
+/* } */ 
+
+.views-info{
+    background-image: url("../../../masque/masque-africain.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(70%) drop-shadow(10px 10px 10px #000000);
+    position:relative;
+    text-align: center;
+    padding: 10px;
+    height: 50svh;
+    margin-bottom: 50px;
+    margin-top: 100px;
+
+
+}
+
+.views-info-img{
+    background-image: url("../../../masque/masque.png");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 150%;
+    height:20svh;
+    background-position: center;
+    /* margin-bottom: 50px; */
+}
+
+
+.views-info-2{
+    background-image: url("../../../masque/masque-africain\(3\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(70%) drop-shadow(10px 10px 10px #000000);
+    position:relative;
+    text-align: center;
+    padding: 10px;
+    height: 45svh;
+    margin-bottom: 50px;
+    margin-top: 435px;
+}
+.views-info-img-2{
+    background-image: url("../../../masque/masque.png");
+    
+    background-repeat: no-repeat;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 150%;
+    height:20svh;
+    background-position: center;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+}
+
+.views-info-3{
+    background-image: url("../../../masque/masque-africain\(2\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(70%) drop-shadow(10px 10px 10px #000000);
+    position:relative;
+    text-align: center;
+    padding: 10px;
+    height: 60svh;
+    top: 75px;
+   
+}
+.views-info-img-3{
+    background-image: url("../../../masque/masque.png");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 150%;
+    height:20svh;
+    background-position: center;
+    
+}
+
+.views-info-text{
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    color: #f6f6f6;
+    filter:  drop-shadow(10px 10px 10px #000000);
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+    width: 80vw;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.views-info-text-2{
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    color: #f6f6f6;
+    width: 80vw;
+    font-size: 18px;
+    filter: drop-shadow(10px 10px 10px #000000);
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.views-info-text-3{
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    color: #f6f6f6;
+    width: 80vw;
+    font-size: 18px;
+    filter:  drop-shadow(10px 10px 10px #000000);
+    font-family: "Roboto Condensed", sans-serif;
+}

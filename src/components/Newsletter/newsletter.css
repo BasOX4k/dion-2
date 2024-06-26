@@ -1,0 +1,79 @@
+/* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 100 to 900 */
+
+.roboto-condensed-<uniquifier> {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  p{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 18px;
+    color: #f6f6f6;
+    padding-left: 2%;
+    
+  }
+
+  .newsletter-container{
+    background-image: url("../../../masque/masque-africain_1_-removebg-preview.png");
+    background-color: #202020;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 60svh;
+    align-items: center;
+    filter: brightness(70%) drop-shadow(10px 10px 10px #000000);
+  }
+
+  .newsletter-title{
+    color: #f6f6f6;
+    padding-left:2%;
+    font-size: 32px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  .newsletter-form{
+    color: #202020;
+    padding-left:2%;
+    font-size: 18px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .newsletter-submit{
+    background-color: #f28705;
+    border: none;
+    color: #202020;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .newsletter-submit:hover{
+    background-color: #9c0202;
+    color: #f6f6f6;
+  }
+
+  .newsletter-input {
+    background-color: #f6f6f6;
+    color: #202020;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    width: 50%;
+  }

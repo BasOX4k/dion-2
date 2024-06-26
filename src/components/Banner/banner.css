@@ -1,0 +1,33 @@
+.banner{
+    width: 100vw;
+    height: 75svh;
+    /* background-image: url("../../../../../../Downloads/6ecba9409243c26d58827829a5056687.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner video{
+    width: 100%;
+    height: 75svh;
+   object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* padding-bottom: 5%; */
+}
+
+.banner-text{
+    text-align: center;
+    position: relative;
+    width: 100vw;
+    min-height: 30svh;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    color: white;
+    background-image: url("../../../public/Logo-Dion.08cdce3a1e089171236c-removebg-preview.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}

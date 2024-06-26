@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 0.5rem 1rem;
+    background-color: #202020;
+}
+
+.footer-brand {
+    color: white;
+    text-decoration: none;
+    background-image: "/Logo-Dion.08cdce3a1e089171236c-removebg-preview.png";
+}
+
+.footer-brand img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-navigation {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+    list-style: none;
+    color: white
+    
+}
+
+
+
