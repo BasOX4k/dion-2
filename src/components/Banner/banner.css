@@ -1,33 +1,49 @@
-.banner{
+.banner {
     width: 100vw;
-    height: 75svh;
-    /* background-image: url("../../../../../../Downloads/6ecba9409243c26d58827829a5056687.jpg"); */
+    height: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
-.banner video{
-    width: 100%;
-    height: 75svh;
-   object-fit: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    /* padding-bottom: 5%; */
+    background-color: #000;
 }
 
-.banner-text{
-    text-align: center;
+.banner video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     position: relative;
+    overflow: hidden;
+    opacity: 1;
+    filter: brightness(70%);
+    margin-top: -99px; /* Ajuster cette valeur selon le besoin */
+}
+
+.banner-text {
+    text-align: center;
+    position: absolute; /* Utilisation de 'absolute' pour une meilleure gestion du positionnement */
     width: 100vw;
-    min-height: 30svh;
     top: 50%;
     left: 50%;
-    transform: translate3d(-50%, -50%, 0);
+    transform: translate(-50%, -50%);
     color: white;
-    background-image: url("../../../public/Logo-Dion.08cdce3a1e089171236c-removebg-preview.png");
     background-position: center;
     background-repeat: no-repeat;
+    padding: 1em; /* Ajout de padding pour éviter que le texte touche les bords */
+    box-sizing: border-box; /* S'assure que le padding est inclus dans la largeur totale */
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 50svh; /* Ajuster la hauteur pour les petits écrans */
+    }
+
+    .banner video {
+        height: 50svh; /* Ajuster la hauteur pour les petits écrans */
+    }
+
+    .banner-text {
+        padding: 0.5em; /* Réduire le padding pour les petits écrans */
+        font-size: 1em; /* Ajuster la taille de la police pour les petits écrans */
+    }
 }

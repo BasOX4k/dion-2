@@ -1,3 +1,4 @@
+/* Carousel Item */
 .carousel-item {
     width: 100%;
     height: 100%;
@@ -5,21 +6,55 @@
     object-position: center;
 }
 
-.d-block {
-    width: 100%;
-    height: 100svh;
+/* Block Element */
+.d-block.w-100  {
+    width: 100%; /* Use vh for viewport height */
     object-fit: cover;
     object-position: center;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto;
+    /* Center align */
 }
 
-/* .d-block w-100 {
-    width: 100%;
-    height: 100svh;
-    object-fit: cover;
-    object-position: center;
-    background-image: url("../../../masque/noun-baule-mask-3825805.png");
-    background-repeat: no-repeat;
-    background-position: center;
-} */
+.d-block.w-100:hover {
+    cursor: pointer;
+    
+}
+
+.carousel-control-prev-icon {
+    color: blue;
+
+}
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+    .d-block.w-100 {
+        max-width: 80vw; /* Use vw for viewport width */
+    }
+}
+
+@media (max-width: 992px) {
+    .d-block.w-100 {
+        min-height: 40vh; /* Adjust height for medium screens */
+        max-width: 90vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .d-block.w-100 {
+        min-height: 30vh; /* Adjust height for small screens */
+        max-width: 95vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .d-block.w-100 {
+        min-height: 20vh; /* Adjust height for extra small screens */
+        max-width: 100vw;
+    }
+}
+
+/* Optional: Background Image for .d-block */
+/* Uncomment and adjust the following if needed */
+
+

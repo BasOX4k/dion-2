@@ -16,8 +16,8 @@ export default function Navbar() {
             <nav>
                 <ul className="navigation">
                     <li> <Link className="nav-link" href="/"></Link>Accueil</li>
-                    <li> <Link className="nav-link" href="/"></Link>A propos</li>
-                    <li> <Link className="nav-link" href="/"></Link>Contact</li>
+                    <li> <Link className="nav-link" href="/"></Link>azerty</li>
+                    <li> <Link className="nav-link" href="/"></Link>ryryr</li>
 
                 </ul>
             </nav>

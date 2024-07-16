@@ -1,33 +1,72 @@
 .footer {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     padding: 0.5rem 1rem;
-    background-color: #202020;
+    background-color: #000;
 }
 
 .footer-brand {
     color: white;
     text-decoration: none;
-    background-image: "/Logo-Dion.08cdce3a1e089171236c-removebg-preview.png";
+    margin-bottom: 0.5rem;
+    position: relative;
 }
 
 .footer-brand img {
-    max-width: 100px;
+    width: 350px;
     height: auto;
+    margin: -40px;
 }
 
 .footer-navigation {
     display: flex;
-    flex-direction: row;
-    margin: 0;
+    justify-content: center;
+    margin: 0.5rem 0;
     padding: 0;
-    gap: 30px;
     list-style: none;
-    color: white
+    color: white;
+    align-items: center;
+}
+
+.footer-navigation li {
+    margin: 0 10px; /* Add some space between the icons */
+}
+
+.copyright {
+    color: white;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.footer-icon {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+    margin-right: 8px;
+    transition: fill 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+.privacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    color: white;
+    text-decoration: none;
+}
+.privacy-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
     
 }
 
-
-
+.footer-icon:hover {
+    fill: #9c0202; /* Change to desired hover color */
+    width: 28px;
+    height: 28px;
+}
