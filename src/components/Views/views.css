@@ -110,7 +110,8 @@ height: 1500px;
   .card-text {
     /* margin: 0; */
     color: #fff;
-    font-size: 18px; /* Assurez-vous que le texte soit lisible */
+    font-size: 18px;
+    margin-left: 0px; /* Assurez-vous que le texte soit lisible */
   }
 
   .card-img-overlay {
@@ -171,8 +172,29 @@ height: 1500px;
 /* Pour les petits écrans (largeur max de 480px) */
 @media (max-width: 480px) {
     .col-1, .col-2, .col-3, .col-4 {
-        width: 100%; /* Les éléments prennent toute la largeur disponible */
+        width: 200%; /* Les éléments prennent toute la largeur disponible */
         margin-left: 0; /* Enlève la marge gauche */
-        margin-top: 10px; /* Une petite marge pour la séparation */
+        margin-top: 1px;
+        margin-bottom: -500px; /* Une petite marge pour la séparation */
     }
+
+    .g-1 {
+        height: 695px;
+    height: 1200px;
+    padding: 83px;
+    padding-top: 83px;
+    padding-right: 83px;
+    padding-bottom: 83px;
+    padding-left: 83px;
+    filter: brightness(75%) drop-shadow(10px 10px 10px);
+    padding-top: 47px;
+    width: 394px;
+    padding: 519px 50px 0px 50px;;
+    }
+    .col-1, .col-2, {
+        margin-top: 10px;
+        margin-bottom: -330px;
+    }
+    
 }
+
