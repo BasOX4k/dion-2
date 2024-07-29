@@ -23,6 +23,7 @@ export default function Views() {
       </div>
     </div>
   </div>
+
   <div className="col-2">
     <div className="card">
     <video src="/pvp.mp4" title="pvp" muted autoPlay loop />
@@ -32,6 +33,7 @@ export default function Views() {
       </div>
     </div>
   </div>
+
   <div className="col-3">
     <div className="card">
       <img src="/pvp.gif" class="card-img-top" alt="..."/>
@@ -42,6 +44,7 @@ export default function Views() {
       </div>
     </div>
   </div>
+  
   <div className="col-4">
     <div className="card">
       <video src="/exploration.mp4" title="exploration" muted autoPlay loop />

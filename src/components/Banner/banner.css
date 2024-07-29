@@ -49,9 +49,7 @@
   
 
 .icons:hover {
-    fill: #9c0202; /* Change la couleur au survol */
-    /* transform: translate(-50%, -50%) scale(1.1); */
-     /* Agrandit légèrement au survol */
+    fill: #9c0202; 
      
 } 
 
