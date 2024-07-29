@@ -10,12 +10,14 @@ p {
   font-size: 18px;
   color: #f6f6f6;
   padding-left: 2%;
+  margin-left: 30px;
+  margin-bottom: 1px;
   text-align: center;
 }
 
 .newsletter-container {
   /* background-image: url("/masque/masque-africain_1_-removebg-preview.png"); */
-  background-color: #202020;
+  background-color: #000;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -35,7 +37,7 @@ p {
   font-weight: 600;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .newsletter-form {
@@ -45,7 +47,8 @@ p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 3px;
+  margin: 6px;
 }
 
 .newsletter-submit {

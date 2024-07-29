@@ -9,48 +9,54 @@ export default function Views() {
             </div>
             <div className="title"> About the game</div>
             <div className="about-game">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae eaque ad fugit amet voluptatum dolores fuga ullam ducimus in optio eos, culpa illo cum veniam reiciendis quasi obcaecati? Nesciunt, dolor.
+         Découvrez Dion! un jeu de survie multijoueur se déroulant dans un monde fantastique inspiré des empires d'Afrique de l'Ouest. Mettez-vous dans la peau d'un chasseur et lancez-vous dans des raids audacieux pour obtenir de puissants artefacts de sorcellerie ainsi que des technologies provénant de plusieurs époques.
             </div>
            
-            <div className="card text-bg-dark">
-  <img src="/image/arme.png" className="card-img" alt="..."/>
-  <div className="card-img-overlay">
-    <h5 className="card-title">Exploration</h5>
-    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    <p className="card-text"><small>Last updated 3 mins ago</small></p>
+            
+            <div className="row row-cols-1 row-cols-md-2 g-1">
+  <div className="col-1">
+    <div className="card">
+      <img src="/tranformation.gif" class="card-img-top" alt="..."/>
+      <div className="card-img-overlay">
+        <h5 className="card-title">Transformation</h5>
+        <p className="card-text"> Faites appelle à la bête qui sommeille en vous. </p>
+      </div>
+    </div>
+  </div>
+  <div className="col-2">
+    <div className="card">
+    <video src="/pvp.mp4" title="pvp" muted autoPlay loop />
+      <div className="card-img-overlay">
+        <h5 className="card-title">PvP</h5>
+        <p className="card-text">De l'action à plus savoir quoi en faire! Formez votre clan, attaquez les villages ennemis et pillez leur ressources!</p>
+      </div>
+    </div>
+  </div>
+  <div className="col-3">
+    <div className="card">
+      <img src="/pvp.gif" class="card-img-top" alt="..."/>
+      <div className="card-img-overlay">
+        <h5 className="card-title">Explore</h5>
+        <p className="card-text">Parcourez le monde de Dion ! 
+       <br/> Partez à la rencontre du folklore africain. </p>
+      </div>
+    </div>
+  </div>
+  <div className="col-4">
+    <div className="card">
+      <video src="/exploration.mp4" title="exploration" muted autoPlay loop />
+      <div className="card-img-overlay">
+        <h5 className="card-title">Sandbox</h5>
+        <p className="card-text">Collecter des ressources, construisez des villages, fabriquez vos armes et accomplissez vos buts.</p>
+      </div>
+    </div>
   </div>
 </div>
 
-        <div className="views-info"> 
-            <div className="views-info-img">
-            
-        </div>
-            <div className="views-info-text">
-            Survivez dans le monde Dion ! A l'aide de vos connaissances et ressources , construisez votre village, formez des alliances et accomplissez vos buts.
-            </div>
-        </div>
-    
 
-    <div className="views-info-2">
-    <div className="views-info-img-2">
-            <img  alt="img-jeu-2" />
-        </div>
-        <div className="views-info-text-2">
-De l'action à plus savoir quoi en faire! Formez votre clan, attaquez les villages ennemis et pillez leur ressources!
-</div>
+         
     </div>
-
-    <div className="views-info-3">
-    <div className="views-info-img-3">
-            <img  alt="img-jeu-3" />
-        </div>
-        <div className="views-info-text-3">
-Découvrez les mystères du monde de Dion! 
-</div>
-
-    </div>
-
-</div>
+ 
 
     )
 }

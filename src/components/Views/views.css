@@ -3,10 +3,41 @@
     font-style: normal;
 }
 
+h5 {
+    font-weight: 700;
+    /* padding: 10px; */
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+}
+p {
+    /* padding: 10px; */
+    text-align: left;
+    padding: 0%;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+}
+
+/* .row-cols-md-2-g1 {
+    width: 40%;
+} */
+.col-1, .col-2, .col-3, .col-4 {
+    width: 30%;
+    margin: 0;
+}
+
+.col-1, .col-3 {
+    margin-left: 400px;
+}
+
+.col-1, .col-2 {
+    margin-top: 810px;
+    margin-bottom: -33px;
+}
 .views {
     background-color: #000;
     position: relative;
-    height: 280vh;
+    height: auto;
     justify-content: space-between;
 }
 
@@ -38,43 +69,36 @@
 
 .about-game {
     background-color: #000;
-    position: relative;
-    width: 787px;
-    height: auto;
-    overflow-wrap: break-word;
-    padding: 10px;
-    left: 96px;
-    margin: 0px 0px 45px calc((100% - 980px) * 0.5);;
-    padding-top: 20px;
     color: #f6f6f6;
-    font-size: 25px;
+    font-size: 1.5rem; /* Utilisation de rem pour une meilleure mise à l'échelle */
     text-align: center;
     text-transform: uppercase;
     font-family: "Bebas Neue", sans-serif;
+    padding: 20px; /* Uniformisation du padding */
+    margin: 0 auto 45px; /* Centrer le conteneur avec margin auto */
+    max-width: 90%; /* Limiter la largeur maximale pour les petits écrans */
+    box-sizing: border-box; /* Inclure le padding dans la largeur totale */
     grid-area: 5 / 1 / 6 / 2;
-    justify-self: start;
-  align-self: start;
+    justify-self: center;
+    align-self: start;
 }
 
+.g-1 {
+background-image: url("/image/background.png");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 1500px;
 
-.views-info {
-    background-image: url("/masque/masque-africain.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    filter: brightness(70%) drop-shadow(10px 10px 10px #000000);
-    position: relative;
-    text-align: center;
-    padding: 10px;
-    height: 50vh;
-    margin-bottom: 50px;
-    margin-top: 100px;
+
+
 }
-
 .card {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     text-align: center;
+    width: auto; /* Largeur fixe pour la carte */ /* Hauteur fixe pour la carte */
+    margin: 0 auto; /* Centrer la carte horizontalement */
   }
 
   .card-img {
@@ -82,6 +106,11 @@
     width: 100%;
     height: auto;
     margin: 0 auto;
+  }
+  .card-text {
+    /* margin: 0; */
+    color: #fff;
+    font-size: 18px; /* Assurez-vous que le texte soit lisible */
   }
 
   .card-img-overlay {
@@ -98,158 +127,52 @@
     background: rgba(0, 0, 0, 0.5); /* Optionnel : pour améliorer la lisibilité du texte sur l'image */
     opacity: 0;
     transition: opacity 0.5s ease;
+    
   }
 
   .card:hover .card-img-overlay {
     opacity: 1;
   }
 
-  .card-title, .card-text {
+  .card-title{
     margin: 0;
-    color: white; /* Assurez-vous que le texte soit lisible */
+    color: white; 
+    font-size: 32px;/* Assurez-vous que le texte soit lisible */
   }
 
-  
-.views-info-2 {
-    background-image: url("/masque/masque.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    filter: brightness(70%) drop-shadow(10px 10px 10px #000000);
-    position: relative;
-    text-align: center;
-    padding: 10px;
-    height: 45vh;
-    margin-bottom: 30px;
-    margin-top: 135px;
-}
 
-.views-info-3 {
-    background-image: url("/masque/masque-africain(2).png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    filter: brightness(70%) drop-shadow(10px 10px 10px #000000);
-    position: relative;
-    text-align: center;
-    padding: 10px;
-    height: 60vh;
-    top: 75px;
-}
-
-.views-info-img-2 {
-    background-image: url("/image/arme.png");
-    background-repeat: no-repeat;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%, -50%, 0);
-    width: 30vw;
-    height: 30vh;
-    background-position: center;
-    z-index: 1;
-}
-
-.views-info-img-3 {
-    background-image: url("/image/artéfact.png");
-    background-repeat: no-repeat;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate3d(-50%, -50%, 0);
-    width: 30vw;
-    height: 30vh;
-    background-position: center;
-}
-
-.views-info-text,
-.views-info-text-2,
-.views-info-text-3 {
-    position: relative;
-    top: 50%;
-    left: 10%;
-    /* transform: translate3d(-50%, -50%, 0); */
-    color: #f6f6f6;
-    width: 80vw;
-    font-size: 18px;
-    /* filter: drop-shadow(10px 10px 10px #000000); */
-    font-family: "Bebas Neue", sans-serif;
-    /* font-weight: 700; */
-    text-transform: uppercase;
-    margin-top: 20px;
-    text-align: center;
-    z-index: 100;
-}
 
 /* Responsive Styles */
-@media (max-width: 1200px) {
-    .views-info-img,
-    .views-info-img-2,
-    .views-info-img-3 {
-        width: 40vw;
-        height: 25vh;
-    }
-
+@media (max-width: 600px) {
     .about-game {
-        font-size: 28px;
+        font-size: 1.2rem; /* Ajuster la taille de la police pour les petits écrans */
+        padding: 15px; /* Réduire le padding pour les petits écrans */
+        margin: 0 auto 30px; /* Ajuster la marge pour les petits écrans */
     }
 }
 
-@media (max-width: 992px) {
-    .views-info-img,
-    .views-info-img-2,
-    .views-info-img-3 {
-        width: 50vw;
-        height: 20vh;
-    }
-
+/* Media Query pour les écrans très larges */
+@media (min-width: 1200px) {
     .about-game {
-        font-size: 24px;
-    }
-
-    .views-info,
-    .views-info-2,
-    .views-info-3 {
-        height: 40vh;
+        max-width: 980px; /* Fixer la largeur maximale sur grands écrans */
     }
 }
+
+
 
 @media (max-width: 768px) {
-    .views-info-img,
-    .views-info-img-2,
-    .views-info-img-3 {
-        width: 60vw;
-        height: 18vh;
-    }
-
-    .about-game {
-        font-size: 20px;
-        padding-top: 30px;
-    }
-
-    .views-info,
-    .views-info-2,
-    .views-info-3 {
-        height: 35vh;
+    .col-1, .col-2, .col-3, .col-4 {
+        width: 45%; /* Ajuste la largeur pour mieux utiliser l'espace */
+        margin-left: 0; /* Enlève la marge gauche */
+        margin-top: 20px; /* Ajoute une marge entre les éléments pour éviter les chevauchements */
     }
 }
 
-@media (max-width: 576px) {
-    .views-info-img,
-    .views-info-img-2,
-    .views-info-img-3 {
-        width: 70vw;
-        height: 15vh;
-    }
-
-    .about-game {
-        font-size: 18px;
-        padding-top: 20px;
-    }
-
-    .views-info,
-    .views-info-2,
-    .views-info-3 {
-        height: 30vh;
+/* Pour les petits écrans (largeur max de 480px) */
+@media (max-width: 480px) {
+    .col-1, .col-2, .col-3, .col-4 {
+        width: 100%; /* Les éléments prennent toute la largeur disponible */
+        margin-left: 0; /* Enlève la marge gauche */
+        margin-top: 10px; /* Une petite marge pour la séparation */
     }
 }
